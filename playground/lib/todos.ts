@@ -22,7 +22,10 @@ type Change =
 function applyChange(todos: Todo[], change: Change): Todo[] {
     switch (change.type) {
         case "add":
-            return [...todos, { id: change.id, text: change.text, done: false }];
+            return [
+                ...todos,
+                { id: change.id, text: change.text, done: false },
+            ];
         case "toggle":
             return todos.map((todo) =>
                 todo.id === change.id ? { ...todo, done: !todo.done } : todo

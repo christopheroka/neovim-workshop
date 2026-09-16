@@ -1,8 +1,8 @@
 "use client";
 
+import type { Todo } from "@/lib/todos";
 import { Pencil, X } from "lucide-react";
 import { useRef, useState } from "react";
-import type { Todo } from "@/lib/todos";
 
 type Props = {
     todo: Todo;

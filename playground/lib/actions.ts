@@ -27,7 +27,9 @@ export async function editTodo(id: string, text: string) {
     const trimmed = text.trim();
     if (!trimmed) return;
     await update((todos) =>
-        todos.map((todo) => (todo.id === id ? { ...todo, text: trimmed } : todo))
+        todos.map((todo) =>
+            todo.id === id ? { ...todo, text: trimmed } : todo
+        )
     );
 }
 
