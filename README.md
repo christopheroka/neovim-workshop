@@ -135,48 +135,69 @@ Basically the same as Visual Mode but with entire lines instead of letting you s
 ## Getting between modes
 
 ### Normal -> Insert
+
 `i` - insert before your cursor
+
 `a` - insert after your cursor
+
 `o` - insert below your cursor (with a new line)
+
 `O` - insert above your cursor (with a new line)
+
 `I` - insert at the start of the line
+
 `A` - insert at the end of the line
 
 ### Insert -> Normal
+
 `jk` (recommended)
+
 `Esc`
 
 ### Normal -> Visual
+
 `v` (visual)
+
 `V` (visual line)
 
 ### Visual -> Normal
+
 `v` (if you're in visual mode)
+
 `V` (if you're in visual line mode)
 
 ## Vim Keybinds
 
-### In Normal Mode 
+### In Normal Mode
 
 #### Movement
+
 `h` - left
+
 `l` - right
+
 `j` - down
+
 `k` - up
 
 `w` - move forward a word
+
 `e` - move forward to the end of the word
+
 `b` - move backwards a word
+
 `f` + [another character] - finds that character in the line you're on
 
 `Ctrl + u` (up) - Move half a page up
-`Ctrl + d`  (down) - Move half a page down
+
+`Ctrl + d` (down) - Move half a page down
 
 #### Modifying code
+
 `dd` - delete line
+
 `D` - delete from your cursor until the end of the line
 
 `yy` - yank (copy) line
+
 `Y` - yank (copy) form your cursor until the end of the line
-
-
