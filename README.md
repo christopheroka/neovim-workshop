@@ -192,6 +192,12 @@ Basically the same as Visual Mode but with entire lines instead of letting you s
 
 `Ctrl + d` (down) - Move half a page down
 
+Note: On Mac, you might want to allow key repeating so you can hold your letters to move faster
+
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
 #### Modifying code
 
 `dd` - delete line
