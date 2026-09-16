@@ -5,7 +5,7 @@
 ### Clone the Repo
 
 ```bash
-cd [your desired directory]
+cd <YOUR_DESIRED_DIRECTORY>
 # e.g.
 # cd ~/Downloads
 # cd ~/code
@@ -34,19 +34,19 @@ Mac
 
 ```bash
 mkdir -p ~/.config
-cp -R [clone location]/nvim ~/.config/nvim
+cp -R <YOUR_CLONE_LOCATION>/nvim ~/.config/nvim
 ```
 
 Windows
 
 ```bash
-New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\nvim"Copy-Item -Recurse "[clone location]\nvim\*" "$env:LOCALAPPDATA\nvim"
+New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\nvim"Copy-Item -Recurse "<YOUR_CLONE_LOCATION>\nvim\*" "$env:LOCALAPPDATA\nvim"
 ```
 
 3. Open Neovim
 
 ```bash
-cd [cloned directory]/neovim-workshop
+cd <YOUR_CLONE_LOCATION>/neovim-workshop
 # e.g.
 # cd ~/code/neovim-workshop
 nvim
