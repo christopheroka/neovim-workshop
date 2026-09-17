@@ -58,10 +58,22 @@ New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\nvim"Copy-Item -Recurse "
 4. Open Neovim
 
 ```bash
-cd <YOUR_CLONE_LOCATION>/neovim-workshop
+cd <YOUR_CLONE_LOCATION>/neovim-workshop/playground
+
 # e.g.
-# cd ~/code/neovim-workshop
+# cd ~/code/neovim-workshop/playground
+
 nvim
+```
+
+5. Exit Neovim
+```bash
+# ":" for command mode
+# "q" for quit
+# "a" for all
+# "!" for 'with force'
+
+:qa!
 ```
 
 ### VS Code / Cursor
