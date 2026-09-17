@@ -14,7 +14,14 @@ git clone https://github.com/christopheroka/neovim-workshop
 
 ### Neovim
 
-1. Download Neovim
+1. Download iTerm2 (For Mac users only. Windows users skip this step)
+[Download link](https://iterm2.com/)
+
+a. Click "Download"
+b. Unzip file
+c. Open iTerm2
+
+2. Download Neovim
 
 Mac
 
@@ -28,7 +35,7 @@ Windows
 winget install Neovim.Neovim
 ```
 
-2. Copy config files into config destination
+3. Copy config files into config destination
 
 Mac
 
@@ -43,7 +50,7 @@ Windows
 New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\nvim"Copy-Item -Recurse "<YOUR_CLONE_LOCATION>\nvim\*" "$env:LOCALAPPDATA\nvim"
 ```
 
-3. Open Neovim
+4. Open Neovim
 
 ```bash
 cd <YOUR_CLONE_LOCATION>/neovim-workshop

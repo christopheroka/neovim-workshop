@@ -683,7 +683,7 @@ require('lazy').setup({
             }
             local top_section = {
                 type = 'text',
-                val = 'Hi Chris,' .. " It's" .. datetime .. 'How are you doing today?',
+                val = 'Hi Friend!' .. " It's" .. datetime .. 'How are you doing today?',
                 opts = {
                     position = 'center',
                 },
