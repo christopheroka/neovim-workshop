@@ -18,9 +18,11 @@ git clone https://github.com/christopheroka/neovim-workshop
 
 [Download link](https://iterm2.com/)
 
-a. Click "Download"
-b. Unzip file
-c. Open iTerm2
+  a. Click "Download"
+
+  b. Unzip file
+
+  c. Open iTerm2
 
 2. Download Neovim
 
