@@ -6,9 +6,11 @@
 
 ```bash
 cd <YOUR_DESIRED_DIRECTORY>
+
 # e.g.
 # cd ~/Downloads
 # cd ~/code
+
 git clone https://github.com/christopheroka/neovim-workshop
 ```
 
