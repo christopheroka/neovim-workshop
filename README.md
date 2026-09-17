@@ -15,6 +15,7 @@ git clone https://github.com/christopheroka/neovim-workshop
 ### Neovim
 
 1. Download iTerm2 (For Mac users only. Windows users skip this step)
+
 [Download link](https://iterm2.com/)
 
 a. Click "Download"
